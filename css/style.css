@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color:beige;
+    
+}
+
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 24%;
+    margin-left: auto;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 25px;
+    margin-right: 1%;
+}
+.heroimg {
+    height: 100px;
+    padding: 25px;
+}
+
+.Image1 {
+    width: 50px;
+    height: 60px;
+}
+
+.Image2 {
+    width: 300px;
+    padding-left: 80px;
+}
+
+button {
+    padding: 6px;
+    background-color: #FFFBE7;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+
+}
+footer {
+    background-color: #373738;
+    
+}
+footer p {
+    width: 65%;
+    vertical-align: top;
+    display: inline-block;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+footer ul{
+    width: 95%;
+    margin-right: auto;
+    text-align: left;
+    color:#fff;
+}
+footer ul li {
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    margin-right: 3%;
+}
+
+/* My Work Section*/
+
+.SelectedProjects {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: #ebebeb;
+}
+
+.heading {
+    text-align: left;
+
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-areas: 
+    "case1 content1"
+    "case2 content2"
+    "case3 content3"
+
+}
+
+.WorkImg1 {
+    width: 300px;
+    height: 350px;
+}
+
+.WorkImg2 {
+    width: 300px;
+    height: 350px;
+}
+
+.WorkImg3 {
+    width: 300px;
+    height: 350px;
+}
+
+.flexContainer {
+    display: grid;
+    width: 100%;
+    flex-direction: row;
+    
+}
+
+.gridColumn {
+    width: 33%;
+    border-width: 2px;
+}
+
+.gridColumn2 {
+    width: 30%
+}
+
+.CaseImg1 {
+    width: 500px;
+    height: 300px;
+}
+
+.CaseImg2 {
+    width: 500px;
+    height: 300px;
+}
+
+.CaseImg3 {
+    width: 500px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .flexContainer {
+      display: flex;
+      flex-direction: column;
+    }
+  }
