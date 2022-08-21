@@ -48,8 +48,14 @@ ul {
 }
 
 button {
-    padding: 6px;
+    margin: auto;
+    position: relative;
+    display: block;
+    padding: 6px 15px;
     background-color: #FFFBE7;
+    border: 3px solid #000;
+    transition: .225s ease all;
+    overflow: hidden;
     font-family: sans-serif;
     cursor: pointer;
 }
