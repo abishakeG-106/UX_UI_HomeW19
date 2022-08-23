@@ -1,7 +1,7 @@
 
 console.log("Your index.js file is loaded correctly!");
 
-$("button").on("touchsart mousedown", function () {
+$("button").on("touchstart mousedown", function () {
     $(this).addClass("clicked");
 });
 

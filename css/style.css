@@ -64,6 +64,22 @@ button {
     cursor: pointer;
 }
 
+.Resume {
+    margin: auto;
+    position: relative;
+    display: block;
+    padding: 6px 15px;
+    background-color: #FFFBE7;
+    border: 3px solid #000;
+    transition: .225s ease all;
+    overflow: hidden;
+    will-change: transform;
+    box-shadow: 3px 3px 3px #000;
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 :hoverfocus {
     cursor: pointer;
     transform: translate(-4px, -4px);
@@ -71,7 +87,7 @@ button {
 	color: #000;
 }
 
-:clicked {
+.clicked {
 		cursor: pointer;
 		transform: translate(3px, 3px) !important; 
 		box-shadow: 0px 0px 0px #7FD8F4 !important; 
